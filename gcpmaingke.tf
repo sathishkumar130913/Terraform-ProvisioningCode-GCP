@@ -7,7 +7,7 @@ provider "google" {
 }
 resource "google_container_cluster" "primary" {
 
-  name     = "demo-ed-cluster"
+  name     = "ed-demo-cluster"
   location = "us-central1-c"
 
   # We can't create a cluster with no node pool defined, but we want to only use
